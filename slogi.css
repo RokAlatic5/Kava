@@ -1,0 +1,96 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, tahoma, helvetica, sans-serif;
+	font-size: 13px;
+}
+#Glava {
+    background-color: black; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	height: 200px;
+	width: 2805px;
+}
+#Stranski {
+	background-color: black;
+	height: 2000px;
+	width: 240px;
+	box-sizing: border-box;
+	padding: 20px;
+	display: flex;
+}
+#Vsebina { 
+	min-height: 350px;
+	width: 950px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+#Clanek {
+	background-color: white;
+	min-height: 350px;
+	box-sizing: border-box;
+	margin: 10px 10px 60px 300px;
+	width: 950px;
+	padding: 20px;
+}
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--modra);
+	border-bottom: var(--obroba);
+}	
+#Navigacija {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none; 
+	height: 30px;
+	margin: 0;
+}
+#Navigacija ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none; 
+	height: 30px;
+	margin: 0;
+}
+#Navigacija {
+    background-color: silver;
+	background-size: cover;
+	height: 30px;
+	width: 2805px;
+}
+#Navigacija a:link,
+#Navigacija a:visited,
+#Navigacija a:hover,
+#Navigacija a:active {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-bottom: 0px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    transition: all .75s ease;
+}
+#Navigacija a:hover
+#Navigacija a:active {
+	background-color: rgba(115,155,210,.35);
+	transition: all 4s ease;
+}
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--modra);
+	border-bottom: var(--obroba);
+}
